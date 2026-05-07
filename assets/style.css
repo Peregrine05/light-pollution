@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 80px 40px;
+  background: #e4e4f5;
+  font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+    source-sans-pro, sans-serif;
+}
+
+a {
+  color: currentColor;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+}
+
+img-comparison-slider {
+  max-width: 500px;
+}
+
+/* Figure styling */
+figure {
+  border-style: solid;
+  text-align: center;
+  border-width: 1px;
+  border-color: #7F7F7F;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 12px;
+}
+
+figure > img {
+  max-height: 500px;
+}
