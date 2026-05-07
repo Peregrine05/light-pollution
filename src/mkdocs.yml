@@ -1,0 +1,25 @@
+site_name: Fighting Light Pollution in Wichita
+site_url: https://peregrine05.github.io/light-pollution/
+docs_dir: light-pollution
+nav:
+    - "Light Pollution and its Causes": "index.md"
+    - "Effects of Light Pollution": "effects.md"
+    - "Solutions to Light Pollution": "solutions.md"
+    - "Works Cited": "works_cited.md"
+
+
+theme:
+    name: simple-blog
+    components:
+        footer: false
+    sidebar: true
+    navigation_depth: 3
+    features:
+        - navigation.side.indexes
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+
+extra_css:
+    - assets/style.css
